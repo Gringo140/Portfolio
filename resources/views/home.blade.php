@@ -84,7 +84,7 @@
     
     <h2 class="h2Status">{{__('home.status')}}</h2>
     
-</section>
+</section> 
 
 
 <section class="about-area" id="about">
