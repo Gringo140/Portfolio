@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 body {
@@ -13,10 +13,11 @@ p {
     line-height: 50px;
 }
 
-.navbar1 {
+
+/* .navbar1 {
     position: fixed;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
@@ -24,20 +25,6 @@ p {
     width: 100vw;
     height: 10vh;
     z-index: 1;
-}
-
-
-/* .logo {
-    flex: 1 1 auto;
-    margin-left: 10%;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 35px;
-}
-
-img {
-    width: 20%;
 } */
 
 .aNav,
@@ -59,6 +46,8 @@ img {
     color: floralwhite;
     border-color: #d4d7de;
     margin-right: 15%;
+    border: 0px;
+    outline: 0px;
 }
 
 .optionLang:hover {
@@ -67,16 +56,17 @@ img {
 
 .langs {
     display: flex;
+    margin-right: 2vw;
 }
 
 .banner-area {
-    position: relative;
+    /* position: relative; */
     background-image: url(/images/mountain.jpg);
     width: 100vw;
     height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
+    background-position: center center;
+    background-size: cover;
 }
 
 .h2Status {
@@ -93,7 +83,7 @@ img {
 .port-area,
 .service-area,
 .contact-area {
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -130,6 +120,7 @@ img {
     width: max-content;
     position: relative;
     display: grid;
+    margin-left: 2vw;
 }
 
 h1 {
@@ -145,7 +136,7 @@ h1 {
     background-color: #d4d7de;
     font-weight: bold;
     position: relative;
-    height: 6.75vh;
+    height: 7vh;
     margin: -55px auto;
     animation: rev 3.3s 1.1s steps(21) forwards;
 }
@@ -155,24 +146,6 @@ h1 {
     animation: blink 11s forwards;
     user-select: none;
 }
-
-
-/* .form {
-    text-align: center;
-}
-
-.form hr {
-    width: 380px;
-    color: #808080;
-    border: 1px solid #808080;
-    animation: out 0.15s 6.2s linear forwards;
-}
-
-.form i {
-    font-size: 190%;
-    color: transparent;
-    animation: check 2s 6.3s linear forwards;
-} */
 
 @keyframes rev {
     0% {
@@ -240,165 +213,342 @@ h1 {
 }
 
 
-/* @keyframes out {
-    0% {
-        width: 360px;
-        border: 1px solid #808080;
-    }
-    95% {
-        width: 17.5px;
-        border: 1px solid #808080;
-    }
-    100% {
-        width: 0px;
-        border: 1px solid rgba(0, 0, 0, 0);
+/* @media (min-width: 654px) {
+    .aNavIcon {
+        display: none;
     }
 } */
 
 
-/* .float {
-    background-color: rgba(255, 255, 255, 0.39);
-    font-family: monospace;
-    margin: 39.5px auto;
-    max-width: 850px;
-    min-width: 350px;
-    padding: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    animation: 0.6s flt linear forwards;
-    font-size: 155%;
-    border-radius: 15px;
-} */
+/* @media screen and (max-width: 991px) {}
 
-
-/* @keyframes flt {
-    0% {
-        opacity: 0;
-        transform: translateY(50px);
+@media screen and (max-width: 850px) {
+    a {
+        font-size: 12px;
     }
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
+    .selectLang {
+        font-size: 12px;
+    }
+    .lang {
+        margin: 7px;
+    }
+    .name {
+        font-size: 25px;
     }
 } */
 
-
-/* .float a {
-    text-align: center;
-    padding: 5px;
-    font-size: 30px;
-    text-decoration: silver;
-    color: #505050;
-    border: 2px solid transparent;
-    width: 70px;
-    transition: 0.2s ease-in-out;
-} */
-
-
-/* a b {
-    display: none;
-} */
-
-
-/* .float a:hover {
-    border-bottom: 2px solid #808080;
-    width: 129px;
-}
-
-.float a:hover i {
-    font-weight: normal;
-}
-
-.float a:hover:last-child i {
-    font-weight: bold;
-} */
-
-
-/* @media (max-width: 690px) {
-    h1 {
+@media screen and (max-width: 1199px) {
+    a {
+        font-size: 14px;
+    }
+    .selectLang {
+        font-size: 14px;
+    }
+    .lang {
+        margin: 7px;
+    }
+    .name {
         font-size: 30px;
     }
-    [class*="btn"] {
-        font-size: 180%;
-        width: 97%;
-        text-align: center;
+}
+
+*/
+/* @media screen and (max-width: 767px) {
+    a {
+        font-size: 11px;
     }
-    [class*="float"] {
-        background-color: transparent;
-        box-shadow: none;
-        justify-content: space-around;
-        width: 85%;
-        min-width: 350px;
-        line-height: 70px;
+    .selectLang {
+        font-size: 11px;
     }
-    .float i {
-        position: fixed;
-        left: 30px;
-        margin-top: 19px;
-    }
-    .float a {
-        box-shadow: none;
-        background-color: rgba(255, 255, 255, 0.39);
-        border: 3px solid transparent;
-        margin-bottom: 30px;
-        width: 100%;
-        font-weight: bold;
-    }
-    .float a:hover {
-        width: 100%;
-        border: 3px solid rgba(255, 255, 255, 0.39);
-        background-color: silver;
-    }
-    .float a i {
-        font-weight: bold;
-    }
-    .float a:hover i {
-        font-weight: bold;
-    }
-    a b {
-        display: inline;
+    .lang {
+        margin: 6px;
     }
 } */
 
-@media (min-width: 654px) {
-    .aNavIcon {
+
+/* @media screen and (min-width: 671px) {
+    .header {
         display: none;
     }
 }
 
-@media (max-width: 653px) {
-    .navbar1 {
-        height: 14vh;
-    }
+@media screen and (max-width: 670px) {
+    .nav,
+    .langs,
     .aNav {
         display: none;
     }
-    a {
-        font-size: 15px;
+    .txt {
+        margin: auto;
     }
-    .aNavIcon {
-        margin: 15px;
-        font-size: x-large;
-        color: #808080;
-    }
-    .aNavIcon:hover {
-        color: floralwhite;
-    }
-    .lang {
-        margin: 8px;
+} */
+
+
+/* @media screen and (max-width: 479px) {
+    .aTxt {
+        margin: auto;
     }
 }
 
-@media (max-width: 481px) {
-    .navbar1 {
-        height: 18vh;
+.header {
+    height: 100%;
+    width: 50px;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #d4d7de;
+}
+
+.aBgr {
+    color: floralwhite;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.header li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+    background-color: floralwhite;
+    color: #808080;
+} */
+
+
+/* /////////////////////////////////////////////////// */
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+/* .header-area {
+    background: url(/images/mountain.jpg);
+    background-position: center center;
+    background-size: cover;
+} */
+
+
+/* default css end */
+
+
+/* navbar regular css start */
+
+.navbar-area {
+    background: #d4d7de;
+    border-bottom: 1px solid floralwhite;
+    position: fixed;
+    width: 100vw;
+}
+
+.site-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+}
+
+
+/* a.site-logo {
+    font-size: 26px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+} */
+
+.site-navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    height: 100%;
+    align-content: center;
+}
+
+.site-navbar ul li a {
+    color: #808080;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.site-navbar ul li a:hover {
+    background: rgba(255, 255, 255, .1);
+}
+
+
+/* navbar regular css end */
+
+
+/* nav-toggler css start */
+
+.nav-toggler {
+    border: 3px solid #fff;
+    padding: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    height: 39px;
+    display: none;
+}
+
+.nav-toggler span,
+.nav-toggler span:before,
+.nav-toggler span:after {
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    transition: .3s;
+}
+
+.nav-toggler span:before {
+    content: '';
+    transform: translateY(-9px);
+}
+
+.nav-toggler span:after {
+    content: '';
+    transform: translateY(6px);
+}
+
+.nav-toggler.toggler-open span {
+    background-color: transparent;
+}
+
+.nav-toggler.toggler-open span:before {
+    transform: translateY(0px) rotate(45deg);
+}
+
+.nav-toggler.toggler-open span:after {
+    transform: translateY(-3px) rotate(-45deg);
+}
+
+
+/* nav-toggler css start */
+
+
+/* intro-area css start */
+
+
+/* .intro-area {
+    height: calc(100vh - 61px);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    background-image: url(/images/mountain.jpg);
+    background-position: center center;
+    background-size: cover;
+} */
+
+
+/* .intro-area h2 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 50px;
+    margin-bottom: 25px;
+}
+
+.intro-area p {
+    font-size: 18px;
+} */
+
+
+/* intro-area css end */
+
+
+/* mobile breakpoint start */
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 720px;
     }
-    a {
-        font-size: 12px;
-        margin-top: -2vh;
+    /* navbar css for mobile start */
+    .nav-toggler {
+        display: block;
+        margin-left: 2vw;
+    }
+    .site-navbar {
+        min-height: 10vh;
+    }
+    .site-navbar ul {
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 10vh);
+        left: 0;
+        top: 10vh;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid #444;
+        background-color: rgba(0, 0, 0, .75);
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
+    }
+    .navbar-area {
+        border-bottom: none;
+    }
+    .site-navbar ul li {
+        width: 100%;
+        text-align: center;
+    }
+    .site-navbar ul li a {
+        padding: 25px;
+        margin-right: 30px;
+        color: floralwhite;
+    }
+    .site-navbar ul li a:hover {
+        background-color: rgba(255, 255, 255, .1);
+    }
+    .site-navbar ul.open {
+        max-height: 100vh;
+        /* overflow: visible; */
+    }
+    .langs {
+        margin-right: 30px;
+    }
+    /*     .intro-area h2 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    } */
+    /* navbar css for mobile end */
+}
+
+@media screen and (max-width: 467px) {
+    .langs {
+        display: none;
     }
     .txt {
-        margin-bottom: 3vh;
+        margin: auto;
+    }
+    .aNav {
+        color: floralwhite;
     }
 }
+
+.aBgr .aLang {
+    padding: 10px;
+    margin-left: 3vw;
+}
+
+@media screen and (min-width: 468px) {
+    .aBgr {
+        display: none;
+    }
+}
+
+
+/* mobile breakpoint end */
