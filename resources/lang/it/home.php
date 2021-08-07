@@ -2,17 +2,7 @@
 
 return [
 
-    /*
-    |--------------------------------------------------------------------------
-    | Authentication Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used during authentication for various
-    | messages that we need to display to the user. You are free to modify
-    | these language lines according to your application's requirements.
-    |
-    */
-
+    'title' => 'Landry Galien - Portfolio IT',
     'name' => 'Landry Galien',
     
     'home' => 'Casa',
@@ -21,6 +11,11 @@ return [
     'career' => 'carriera',
     'achievements' => 'conquiste',
     'contact' => 'contatto',
+
+    'fr' => 'FR',
+    'en' => 'EN',
+    'es' => 'ES',
+    'it' => 'IT',
 
     'status' => 'Sviluppatore Junior Full Stack',
 
