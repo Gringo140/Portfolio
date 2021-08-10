@@ -19,4 +19,6 @@ return [
 
     'status' => 'Junior Full Stack Developer',
 
+    'age' => '33 years',
+    'hometown' => 'Lyon, FR'
 ];

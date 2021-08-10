@@ -78,10 +78,44 @@
 </header>
 
 <div class="banner-area" id="home">  
-    <h2 class="h2Status">{{__('home.status')}}</h2> 
+    <h1 class="h2Status">{{__('home.status')}}</h1> 
 </div> 
 
-<section class="about-area" id="about">
+<section class="about-area"  id="about">
+  <span class="mb-5 mt-5"><h3>{{__('home.about')}}</h3></span>
+<div class="postrow">
+  <div class="minip">
+  <div class="circle">
+    <div class="imageb">
+      <div class="image"></div>
+    </div>
+  </div>
+  <div class="name"><b><h2 class="name">{{__('home.name')}}</h2></b></div>
+  
+  <div class="details">
+    <span>{{__('home.age')}}</span>
+  </div>
+  <div class="details">
+    <span> <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
+      {{__('home.hometown')}}</span>
+  </div>
+</div>
+
+  <div class="post">
+    <div class="temp">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+
+</div>
+</section>
+
+{{-- /////////////////////////////////////////// --}}
+
+
+{{-- /////////////////////////////////////////// --}}
+<section class="about-area">
   <div class="text-part">
     <h1>
       About Area</h1>
