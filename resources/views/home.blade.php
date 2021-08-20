@@ -82,7 +82,7 @@
 </div> 
 
 <section class="about-area"  id="about">
-  <span class="mb-5 mt-5"><h3>{{__('home.about')}}</h3></span>
+  <span class="h3"><h3><u>{{__('home.about')}}</u></h3></span>
 <div class="postrow">
   <div class="minip">
   <div class="circle">
@@ -90,8 +90,8 @@
       <div class="image"></div>
     </div>
   </div>
-  <div class="name"><b><h2 class="name">{{__('home.name')}}</h2></b></div>
-  
+  {{-- <div class="name"><b><h2 class="name">{{__('home.name')}}</h2></b></div> --}}
+  {{-- <img src="{{ asset('images/logo LG.png') }}" class="card-img-top" alt="..."> --}}
   <div class="details">
     <span>{{__('home.age')}}</span>
   </div>
@@ -103,8 +103,8 @@
 
   <div class="post">
     <div class="temp">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br><br>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <p>{{__('home.description')}}</p>
+      <img src="{{ asset('images/logo LG.png') }}" class="card-img-top" alt="...">
     </div>
   </div>
 
@@ -112,8 +112,196 @@
 </section>
 
 {{-- /////////////////////////////////////////// --}}
+<section class="port-area" id="skills">
+  <span class="h3"><h3><u>{{__('home.skills')}}</u></h3></span>
+<ul class="row cardList">
+  <h4 class="h4Card">{{__('home.techno')}}</h4>
+  <li class="card">
+    <img src="{{ asset('images/php.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">PHP</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/javascript2.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">Javascript</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/typescript.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">Typescript</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/html.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">HTML</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/css.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">CSS</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/sql.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">SQL</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/uml.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">uml</h3>
+    </div>
+  </li>
+</ul>
 
 
+<ul class="row cardList">
+  <h4 class="h4Card">{{__('home.frameworks')}}</h4>
+  <li class="card">
+    <img src="{{ asset('images/laravel.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">Laravel</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/angular2.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">Angular</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/capacitor.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">capacitor</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/cordova.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">cordova</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/ionic.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">ionic</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/bootstrap.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">bootstrap</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/jquery.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">jquery</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/scrum.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">scrum</h3>
+    </div>
+  </li>
+</ul>
+
+
+<ul class="row cardList">
+  <h4 class="h4Card">{{__('home.tools')}}</h4>
+  <li class="card">
+    <img src="{{ asset('images/apache.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">apache</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/mariadb.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">mariadb</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/android studio.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">Android Studio</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/balsamiq.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">balsamiq</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/git.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">git</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/jira.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">jira</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/methode-agile.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">méthode agile</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/linux.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">linux</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/postman.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">postman</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/star uml.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">star uml</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/Sublime-merge.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">Sublime merge</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/vs code.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">vs code</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/sigfox.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">sigfox</h3>
+    </div>
+  </li>
+  <li class="card">
+    <img src="{{ asset('images/arduino.png') }}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h3 class="h3Tech">arduino</h3>
+    </div>
+  </li>
+</ul>
+</section>
 {{-- /////////////////////////////////////////// --}}
 <section class="about-area">
   <div class="text-part">
@@ -151,13 +339,7 @@
   </div>
 </section>
 
-<div>
-    <div class="row">
-        <img class="ik" src="{{ asset('images/profil.jpg') }}">
-        <h2>{{__('home.name')}}</h2>
-    </div>
-    
-</div>
+
 
 <script>
 const navToggler = document.querySelector('.nav-toggler');
