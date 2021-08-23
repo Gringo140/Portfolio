@@ -330,8 +330,8 @@
                     <i class="bi bi-briefcase" aria-hidden="true"></i>
                     Stage développeur full stack
                   </h3>
-                  <h6>
-                    <span> <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
+                  <h6 class="mb-2">
+                    <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
                       A World To Work, Ecully 69130 (03/21-07/21)
                       <h6>
                         <ul class="description">
@@ -378,8 +378,8 @@
                     Concepteur Développeur d'Applications
                     <i class="bi bi-patch-check-fill" style="color: #1DA1F2"></i>
                   </h3>
-                  <h6>
-                    <span> <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
+                  <h6 class="mb-2">
+                    <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
                       M2I Formation, Lyon 69007 (07/20-07/21)
                       <h6>
                         <ul class="description">
@@ -422,8 +422,8 @@
                     <i class="bi bi-briefcase" aria-hidden="true"></i>
                     Superviseur Adjoint
                   </h3>
-                  <h6>
-                    <span> <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
+                  <h6 class="mb-2">
+                    <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
                       XPO Logistics, Genas 69740
                       <h6>
                         <ul class="description">
@@ -469,8 +469,8 @@
                     <i class="bi bi-book" aria-hidden="true"></i>
                     BTS Ventes et Productions Touristiques
                   </h3>
-                  <h6>
-                    <span> <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
+                  <h6 class="mb-2">
+                    <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
                       Peyrefitte Tourisme, Lyon 69002
                       <h6>
                         <ul class="description">
@@ -508,10 +508,10 @@
                     Bac STI Génie Mécanique
                     <i class="bi bi-patch-check-fill" style="color: #1DA1F2"></i>
                   </h3>
-                  <h6>
-                    <span> <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
+                  <h6 >
+                    <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
                       Jean-Baptiste de la Salle, Lyon 69004
-                      <h6><br>
+                    <h6>
                         <ul class="description">
                           <li>
                             Études des constructions
