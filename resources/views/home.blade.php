@@ -20,6 +20,7 @@
             <li><a class="aNav" href="#about">{{ __('home.about') }}</a></li>
             <li><a class="aNav" href="#skills">{{ __('home.skills') }}</a></li>
             <li><a class="aNav" href="#career">{{ __('home.career') }}</a></li>
+            <li><a class="aNav" href="#achievements">{{ __('home.achievements') }}</a></li>
             <li><a class="aNav" href="#contact">{{ __('home.contact') }}</a></li>
             <li class="aBgr">
               @foreach (Config::get('languages') as $lang => $language)
@@ -111,6 +112,11 @@
       <div class="post">
         <div class="temp">
           <p>{{ __('home.description') }}</p>
+          <div class="reseaux">
+          <a href="https://www.linkedin.com/in/landry-galien/" target="_blank"><i class="bi bi-linkedin linkedin"></i></a>
+          <a href="https://github.com/Gringo140" target="_blank"><i class="bi bi-github github"></i></a>
+          <a href="mailto:landry.galien@gmail.com" target="_blank"><i class="bi bi-envelope-fill mail"></i></a>
+          </div>
           <img src="{{ asset('images/logo LG.png') }}" class="card-img-top" alt="...">
         </div>
       </div>
@@ -118,7 +124,7 @@
   </section>
 
   {{-- ///////////////////    COMPETENCES    /////////////////////// --}}
-  <section class="port-area" id="skills">
+  <section class="skills-area" id="skills">
     <span class="h3">
       <h3><u>{{ __('home.skills') }}</u></h3>
     </span>
@@ -310,7 +316,7 @@
   </section>
 
   {{-- ///////////////////    PARCOURS    /////////////////////// --}}
-  <section class="service-area" id="career">
+  <section class="career-area" id="career">
     <span class="h3">
       <h3><u>{{ __('home.career') }}</u></h3>
     </span>
@@ -333,7 +339,7 @@
                   <h6 class="mb-2">
                     <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
                       A World To Work, Ecully 69130 (03/21-07/21)
-                      <h6>
+                  </h6>
                         <ul class="description">
                           <li>
                             Développement et améliorations back-end du site <a href="https://moneiot.com" target="_blank">
@@ -381,7 +387,7 @@
                   <h6 class="mb-2">
                     <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
                       M2I Formation, Lyon 69007 (07/20-07/21)
-                      <h6>
+                  </h6>
                         <ul class="description">
                           <li>
                             Algorithmes
@@ -405,7 +411,7 @@
                             Base de données : SQL, MySQL, MongoDB
                           </li>
                           <li>
-                            POO, Architecture MVC
+                            POO, Architecture MVC, CRUD
                           </li>
                         </ul>
                 </div>
@@ -425,7 +431,7 @@
                   <h6 class="mb-2">
                     <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
                       XPO Logistics, Genas 69740
-                      <h6>
+                  </h6>
                         <ul class="description">
                           <li>
                             Planifier le traitement des commandes:
@@ -472,7 +478,7 @@
                   <h6 class="mb-2">
                     <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
                       Peyrefitte Tourisme, Lyon 69002
-                      <h6>
+                  </h6>
                         <ul class="description">
                           <li>
                             français
@@ -508,10 +514,10 @@
                     Bac STI Génie Mécanique
                     <i class="bi bi-patch-check-fill" style="color: #1DA1F2"></i>
                   </h3>
-                  <h6 >
+                  <h6>
                     <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
                       Jean-Baptiste de la Salle, Lyon 69004
-                    <h6>
+                  </h6>
                         <ul class="description">
                           <li>
                             Études des constructions
@@ -539,6 +545,94 @@
 
   </section>
 
+  {{-- ///////////////////    REALISATIONS   /////////////////////// --}}
+  <section class="realisation-area" id="achievements">
+    <span class="h3">
+      <h3><u>{{ __('home.achievements') }}</u></h3>
+    </span>
+
+    <div class="real mb-8">
+
+    <div class="flip">
+      <div class="front quantum">
+        {{-- <h1 class="text-shadow">
+          Quantum
+        </h1> --}}
+      </div>
+      <div class="back">
+        <h2>
+          Quantum Expertise
+        </h2>
+        <div class="reseaux linksReal">
+          <a href="https://github.com/Gringo140" target="_blank"><i class="bi bi-code-slash"></i></a>
+          </div>
+      </div>
+    </div>
+    <div class="flip">
+      <div class="front magicDeck">
+        {{-- <h1 class="text-shadow">
+          LAKE
+        </h1> --}}
+      </div>
+      <div class="back">
+        <h2>
+          Magic-deck
+        </h2>
+        <div class="reseaux linksReal">
+          <a href="https://github.com/Gringo140/magic-deck" target="_blank"><i class="bi bi-code-slash"></i></a>
+          </div>
+      </div>
+    </div>
+    <div class="flip">
+      <div class="front moneiot2">
+        {{-- <h1 class="text-shadow">
+          OCEAN
+        </h1> --}}
+      </div>
+      <div class="back">
+        <h2>
+          MoneIoT
+        </h2>
+        <div class="reseaux linksReal">
+          <a href="https://www.moneiot.com" target="_blank"><i class="bi bi-globe"></i></a>
+          </div>
+      </div>
+    </div>
+    <div class="flip">
+      <div class="front todolist">
+        {{-- <h1 class="text-shadow">
+          OCEAN
+        </h1> --}}
+      </div>
+      <div class="back">
+        <h2>
+          Todo-List
+        </h2>
+        <div class="reseaux linksReal">
+          <a href="https://gringo140.github.io/todolist/www/" target="_blank"><i class="bi bi-globe"></i></a>
+          <a href="https://github.com/Gringo140/todolist" target="_blank"><i class="bi bi-code-slash"></i></a>
+          </div>
+      </div>
+    </div>
+    <div class="flip">
+      <div class="front gamingApp">
+        {{-- <h1 class="text-shadow">
+          OCEAN
+        </h1> --}}
+      </div>
+      <div class="back">
+        <h2>
+          Gaming-app
+        </h2>
+        <div class="reseaux linksReal">
+          <a href="https://github.com/Gringo140/gaming-app" target="_blank"><i class="bi bi-code-slash"></i></a>
+          </div>
+      </div>
+    </div>
+    
+    </div>
+
+  </section>
   {{-- ///////////////////    CONTACT   /////////////////////// --}}
   <section class="contact-area" id="contact">
     <span class="h3">
