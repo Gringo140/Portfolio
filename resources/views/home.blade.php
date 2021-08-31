@@ -107,15 +107,21 @@
         <div class="details">
           <span> <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
             {{ __('home.hometown') }}</span>
-        </div>
+          </div>
+          <div class="details">
+            <span>Disponibilité: <div class="now details2">Immédiate <i class="bi bi-check-circle-fill" style="color: green"></i></div></span>
+          </div>
       </div>
       <div class="post">
         <div class="temp">
           <p>{{ __('home.description') }}</p>
           <div class="reseaux">
-          <a href="https://www.linkedin.com/in/landry-galien/" target="_blank"><i class="bi bi-linkedin linkedin"></i></a>
-          <a href="https://github.com/Gringo140" target="_blank"><i class="bi bi-github github"></i></a>
-          <a href="mailto:landry.galien@gmail.com" target="_blank"><i class="bi bi-envelope-fill mail"></i></a>
+            <a href="https://www.linkedin.com/in/landry-galien/" target="_blank" title="Voir mon profil Linkedin"><i class="bi bi-linkedin linkedin"></i></a>
+            <a href="https://github.com/Gringo140" target="_blank" title="Voir mon profil Github"><i class="bi bi-github github"></i></a>
+            <a download="CV Landry Galien" target="_blank" href="{{ asset('images/CV 2021.pdf') }}" title="Télécharger le CV"><i class="bi bi-file-earmark-pdf-fill CV"></i></a>
+            <a href="mailto:landry.galien@gmail.com" target="_blank" title="Contactez moi !"><i class="bi bi-envelope-fill mail"></i></a>
+
+            
           </div>
           <img src="{{ asset('images/logo LG.png') }}" class="card-img-top" alt="...">
         </div>
@@ -338,37 +344,37 @@
                   </h3>
                   <h6 class="mb-2">
                     <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
-                      A World To Work, Ecully 69130 (03/21-07/21)
+                    A World To Work, Ecully 69130 (03/21-07/21)
                   </h6>
-                        <ul class="description">
-                          <li>
-                            Développement et améliorations back-end du site <a href="https://moneiot.com" target="_blank">
-                              <img src="{{ asset('images/moneiot.png') }}" class="moneiot" alt="...">
-                            </a> (PHP/Laravel, Javascript, JQuery) sous Linux
-                          </li>
-                          <li>
-                            Intégration et gestion d'IoTs (Arduino, Sigfox)
-                          </li>
-                          <li>
-                            Refonte de l'interface du site vitrine
-                          </li>
-                          <li>
-                            Création d'une API
-                          </li>
-                          <li>
-                            Création et développement d'une application mobile
-                            (Typescript/Angular, Ionic, Capacitor)
-                          </li>
-                          <li>
-                            Intégration d'un multi-langues
-                          </li>
-                          <li>
-                            Déploiement de l'application mobile (Android Studio)
-                          </li>
-                          <li>
-                            Méthode Agile, GitHub, Jira
-                          </li>
-                        </ul>
+                  <ul class="description">
+                    <li>
+                      Développement et améliorations back-end du site <a href="https://moneiot.com" target="_blank">
+                        <img src="{{ asset('images/moneiot.png') }}" class="moneiot" alt="...">
+                      </a> (PHP/Laravel, Javascript, JQuery) sous Linux
+                    </li>
+                    <li>
+                      Intégration et gestion d'IoTs (Arduino, Sigfox)
+                    </li>
+                    <li>
+                      Refonte de l'interface du site vitrine
+                    </li>
+                    <li>
+                      Création d'une API
+                    </li>
+                    <li>
+                      Création et développement d'une application mobile
+                      (Typescript/Angular, Ionic, Capacitor)
+                    </li>
+                    <li>
+                      Intégration d'un multi-langues
+                    </li>
+                    <li>
+                      Déploiement de l'application mobile (Android Studio)
+                    </li>
+                    <li>
+                      Méthode Agile, GitHub, Jira
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -386,34 +392,34 @@
                   </h3>
                   <h6 class="mb-2">
                     <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
-                      M2I Formation, Lyon 69007 (07/20-07/21)
+                    M2I Formation, Lyon 69007 (07/20-07/21)
                   </h6>
-                        <ul class="description">
-                          <li>
-                            Algorithmes
-                          </li>
-                          <li>
-                            Langages : HTML / CSS, Java, PHP, JavaScript, UML, SQL
-                          </li>
-                          <li>
-                            Framework PHP : Symfony
-                          </li>
-                          <li>
-                            Framework Java : Spring, Hibernate
-                          </li>
-                          <li>
-                            Framework JavaScript : Angular, Ionic
-                          </li>
-                          <li>
-                            Gestion des Big Data
-                          </li>
-                          <li>
-                            Base de données : SQL, MySQL, MongoDB
-                          </li>
-                          <li>
-                            POO, Architecture MVC, CRUD
-                          </li>
-                        </ul>
+                  <ul class="description">
+                    <li>
+                      Algorithmie
+                    </li>
+                    <li>
+                      Langages : HTML / CSS, Java, PHP, JavaScript, UML, SQL
+                    </li>
+                    <li>
+                      Framework PHP : Symfony
+                    </li>
+                    <li>
+                      Framework Java : Spring, Hibernate
+                    </li>
+                    <li>
+                      Framework JavaScript : Angular, Ionic
+                    </li>
+                    <li>
+                      Gestion des Big Data
+                    </li>
+                    <li>
+                      Base de données : SQL, MySQL, MongoDB
+                    </li>
+                    <li>
+                      POO, Architecture MVC, CRUD
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -430,37 +436,37 @@
                   </h3>
                   <h6 class="mb-2">
                     <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
-                      XPO Logistics, Genas 69740
+                    XPO Logistics, Genas 69740
                   </h6>
-                        <ul class="description">
-                          <li>
-                            Planifier le traitement des commandes:
-                            Adapter les demandes spécifiques des clients selon le
-                            cahier des charges, Respect des KPI, Respect des directives
-                            client, Réaliser un suivi d’activité
-                          </li>
-                          <li>
-                            Management d’équipe:
-                            Management de 2 équipes de +10 personnes, Animer et
-                            motiver l’équipe, Être à l’écoute, former, accompagner les
-                            salariés, Résoudre les problèmes imprévus
-                          </li>
-                          <li>
-                            Planifier l’activité du personnel:
-                            Répartir la charge de travail, Gérer les missions en cours et
-                            à venir, Établir les bons de commande
-                          </li>
-                          <li>
-                            Coordonner:
-                            Adjoint du chef d’équipe, Coordonner les actions du
-                            responsable d’exploitation avec le groupe
-                          </li>
-                          <li>
-                            Polyvalence:
-                            Connaissance et capacité d'effectuer n'importe quelle tâche de
-                            chaque poste
-                          </li>
-                        </ul>
+                  <ul class="description">
+                    <li>
+                      Planifier le traitement des commandes:
+                      Adapter les demandes spécifiques des clients selon le
+                      cahier des charges, Respect des KPI, Respect des directives
+                      client, Réaliser un suivi d’activité
+                    </li>
+                    <li>
+                      Management d’équipe:
+                      Management de 2 équipes de +10 personnes, Animer et
+                      motiver l’équipe, Être à l’écoute, former, accompagner les
+                      salariés, Résoudre les problèmes imprévus
+                    </li>
+                    <li>
+                      Planifier l’activité du personnel:
+                      Répartir la charge de travail, Gérer les missions en cours et
+                      à venir, Établir les bons de commande
+                    </li>
+                    <li>
+                      Coordonner:
+                      Adjoint du chef d’équipe, Coordonner les actions du
+                      responsable d’exploitation avec le groupe
+                    </li>
+                    <li>
+                      Polyvalence:
+                      Connaissance et capacité d'effectuer n'importe quelle tâche de
+                      chaque poste
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -477,28 +483,28 @@
                   </h3>
                   <h6 class="mb-2">
                     <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
-                      Peyrefitte Tourisme, Lyon 69002
+                    Peyrefitte Tourisme, Lyon 69002
                   </h6>
-                        <ul class="description">
-                          <li>
-                            français
-                          </li>
-                          <li>
-                            communication en langue étrangère (Anglais, Espagnol)
-                          </li>
-                          <li>
-                            géographie et histoire des civilisations
-                          </li>
-                          <li>
-                            économie et droit appliqués au tourisme
-                          </li>
-                          <li>
-                            mercatique et productions touristiques
-                          </li>
-                          <li>
-                            commercialisation de produits touristiques
-                          </li>
-                        </ul>
+                  <ul class="description">
+                    <li>
+                      français
+                    </li>
+                    <li>
+                      communication en langue étrangère (Anglais, Espagnol)
+                    </li>
+                    <li>
+                      géographie et histoire des civilisations
+                    </li>
+                    <li>
+                      économie et droit appliqués au tourisme
+                    </li>
+                    <li>
+                      mercatique et productions touristiques
+                    </li>
+                    <li>
+                      commercialisation de produits touristiques
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -516,25 +522,25 @@
                   </h3>
                   <h6>
                     <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
-                      Jean-Baptiste de la Salle, Lyon 69004
+                    Jean-Baptiste de la Salle, Lyon 69004
                   </h6>
-                        <ul class="description">
-                          <li>
-                            Études des constructions
-                          </li>
-                          <li>
-                            Études des systèmes techniques industriels
-                          </li>
-                          <li>
-                            Sciences physiques et physique appliquée
-                          </li>
-                          <li>
-                            Productique mécanique
-                          </li>
-                          <li>
-                            Matières générales
-                          </li>
-                        </ul>
+                  <ul class="description">
+                    <li>
+                      Études des constructions
+                    </li>
+                    <li>
+                      Études des systèmes techniques industriels
+                    </li>
+                    <li>
+                      Sciences physiques et physique appliquée
+                    </li>
+                    <li>
+                      Productique mécanique
+                    </li>
+                    <li>
+                      Matières générales
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -548,88 +554,93 @@
   {{-- ///////////////////    REALISATIONS   /////////////////////// --}}
   <section class="realisation-area" id="achievements">
     <span class="h3">
-      <h3><u>{{ __('home.achievements') }}</u></h3>
+      <h3><u>{{ __('home.achievements') }}<br> et <br> participations</u></h3>
     </span>
 
     <div class="real mb-8">
 
-    <div class="flip">
-      <div class="front quantum">
-        {{-- <h1 class="text-shadow">
-          Quantum
-        </h1> --}}
-      </div>
-      <div class="back">
-        <h2>
-          Quantum Expertise
-        </h2>
-        <div class="reseaux linksReal">
-          <a href="https://github.com/Gringo140" target="_blank"><i class="bi bi-code-slash"></i></a>
+      <div class="flip">
+        <div class="front portfolio">
+        </div>
+        <div class="back">
+          <h2 class="h2Projects">
+            Portfolio
+          </h2>
+          <div class="reseaux linksReal">
+
+            <a href="http://127.0.0.1:8000/" title="Voir le site" target="_blank"><i class="bi bi-globe"></i></a>
+            <a href="https://github.com/Gringo140/Portfolio" title="Voir le code source" target="_blank"><i class="bi bi-code-slash"></i></a>
           </div>
+        </div>
       </div>
-    </div>
-    <div class="flip">
-      <div class="front magicDeck">
-        {{-- <h1 class="text-shadow">
-          LAKE
-        </h1> --}}
-      </div>
-      <div class="back">
-        <h2>
-          Magic-deck
-        </h2>
-        <div class="reseaux linksReal">
-          <a href="https://github.com/Gringo140/magic-deck" target="_blank"><i class="bi bi-code-slash"></i></a>
+      <div class="flip todoMobile">
+        <div class="front todolist">
+        </div>
+        <div class="back">
+          <h2 class="h2Todo h2Projects">
+            Todo-List
+          </h2>
+          <div class="reseaux linksReal linksRealMobile">
+            <a href="https://gringo140.github.io/todolist/www/" title="Voir le site" target="_blank"><i class="bi bi-globe"></i></a>
+            <a href="https://github.com/Gringo140/todolist" title="Voir le code source" target="_blank"><i class="bi bi-code-slash"></i></a>
           </div>
+        </div>
       </div>
-    </div>
-    <div class="flip">
-      <div class="front moneiot2">
-        {{-- <h1 class="text-shadow">
-          OCEAN
-        </h1> --}}
-      </div>
-      <div class="back">
-        <h2>
-          MoneIoT
-        </h2>
-        <div class="reseaux linksReal">
-          <a href="https://www.moneiot.com" target="_blank"><i class="bi bi-globe"></i></a>
+      <div class="flip">
+        <div class="front moneiot2">
+        </div>
+        <div class="back">
+          <h2 class="h2Projects">
+            MoneIoT
+          </h2>
+          <div class="reseaux linksReal">
+            <a href="https://www.moneiot.com" title="Voir le site" target="_blank"><i class="bi bi-globe"></i></a>
           </div>
+        </div>
       </div>
-    </div>
-    <div class="flip">
-      <div class="front todolist">
-        {{-- <h1 class="text-shadow">
-          OCEAN
-        </h1> --}}
-      </div>
-      <div class="back">
-        <h2>
-          Todo-List
-        </h2>
-        <div class="reseaux linksReal">
-          <a href="https://gringo140.github.io/todolist/www/" target="_blank"><i class="bi bi-globe"></i></a>
-          <a href="https://github.com/Gringo140/todolist" target="_blank"><i class="bi bi-code-slash"></i></a>
+      <div class="flip">
+        <div class="front gamingApp">
+        </div>
+        <div class="back">
+          <h2 class="h2Projects">
+            Gaming-app
+          </h2>
+          <div class="reseaux linksReal">
+            <a href="https://github.com/Gringo140/gaming-app" title="Voir le code source" target="_blank"><i class="bi bi-code-slash"></i></a>
           </div>
+        </div>
       </div>
-    </div>
-    <div class="flip">
-      <div class="front gamingApp">
-        {{-- <h1 class="text-shadow">
-          OCEAN
-        </h1> --}}
-      </div>
-      <div class="back">
-        <h2>
-          Gaming-app
-        </h2>
-        <div class="reseaux linksReal">
-          <a href="https://github.com/Gringo140/gaming-app" target="_blank"><i class="bi bi-code-slash"></i></a>
+      <div class="flip">
+        <div class="front magicDeck">
+        </div>
+        <div class="back">
+          <h2 class="h2Projects">
+            Magic-deck
+          </h2>
+          <div class="reseaux linksReal">
+            <a href="https://magicdeck140.herokuapp.com/cards" title="Voir le site" target="_blank"><i class="bi bi-globe"></i></a>
+            <a href="https://github.com/Gringo140/magic-deck" title="Voir le code source" target="_blank"><i class="bi bi-code-slash"></i></a>
           </div>
+        </div>
       </div>
-    </div>
-    
+      <div class="flip">
+        <div class="front quantum">
+        </div>
+        <div class="back">
+          <h2 class="h2Projects">
+            Quantum Expertise
+          </h2>
+          <div class="reseaux linksReal">
+            <a href="https://gringo140.github.io/quantum-expertise/" title="Voir le site" target="_blank"><i class="bi bi-globe"></i></a>
+            <a href="https://github.com/Gringo140" title="Voir le code source" target="_blank"><i class="bi bi-code-slash"></i></a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
     </div>
 
   </section>
@@ -638,19 +649,37 @@
     <span class="h3">
       <h3><u>{{ __('home.contact') }}</u></h3>
     </span>
-    <div class="text-part">
-      <h1>
-        Contact Area</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid atque commodi dolor est nobis veniam!
-        Eius rerum, unde. Accusamus corporis esse eveniet exercitationem fugiat harum pariatur sequi similique
-        tenetur vitae. Aliquam amet est excepturi, exercitationem facere fugit ipsa laborum molestiae nemo officiis
-        placeat quos repellat saepe temporibus voluptatum.</p>
-    </div>
+    
+    <iframe
+    src="{{ asset('images/CV 2021.pdf') }}"
+    type="application/pdf"
+    frameBorder="0"
+    height="100%"
+    width="auto">
+    </iframe>
+
+    <a href="{{ asset('images/CV 2021.pdf') }}" target="_blank">Voir mon CV
+      <i class="bi bi-aspect-ratio"></i></a>
+      <a download="CV Landry Galien" target="_blank" href="{{ asset('images/CV 2021.pdf') }}" title="Télécharger le CV"><i class="bi bi-file-earmark-pdf-fill CV"></i></a>
+
+    <a download="CV Landry Galien" target="_blank" href="{{ asset('images/CV 2021.pdf') }}">
+      Téléchargez mon CV
+      <i class="bi bi-download CV"></i>
+    </a>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32873.21565196787!2d4.792050181050427!3d45.72907148078679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4e96994fa8e09%3A0x408ab2ae4bb2050!2s69600%20Oullins!5e0!3m2!1sfr!2sfr!4v1629972956371!5m2!1sfr!2sfr" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    
   </section>
 
+  
+  <footer id="target">
+    <div class="content1">
+        made with <div class="heart"><i class="bi bi-suit-heart-fill"></i></div> by Landry Galien
+      </div>
+    </footer>
 
-
+  
 
   <script>
     const navToggler = document.querySelector('.nav-toggler');
