@@ -107,24 +107,57 @@
         <div class="details">
           <span> <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
             {{ __('home.hometown') }}</span>
-          </div>
-          <div class="details">
-            <span>Disponibilité: <div class="now details2">Immédiate <i class="bi bi-check-circle-fill" style="color: green"></i></div></span>
-          </div>
+        </div>
+        <div class="details">
+          <span>Disponibilité: <div class="now details2">Immédiate <i class="bi bi-check-circle-fill"
+                style="color: green"></i></div></span>
+        </div>
       </div>
       <div class="post">
         <div class="temp">
           <p>{{ __('home.description') }}</p>
           <div class="reseaux">
-            <a href="https://www.linkedin.com/in/landry-galien/" target="_blank" title="Voir mon profil Linkedin"><i class="bi bi-linkedin linkedin"></i></a>
-            <a href="https://github.com/Gringo140" target="_blank" title="Voir mon profil Github"><i class="bi bi-github github"></i></a>
-            <a download="CV Landry Galien" target="_blank" href="{{ asset('images/CV 2021.pdf') }}" title="Télécharger le CV"><i class="bi bi-file-earmark-pdf-fill CV"></i></a>
-            <a href="mailto:landry.galien@gmail.com" target="_blank" title="Contactez moi !"><i class="bi bi-envelope-fill mail"></i></a>
+            <a href="https://www.linkedin.com/in/landry-galien/" target="_blank" title="Voir mon profil Linkedin"><i
+                class="bi bi-linkedin linkedin"></i></a>
+            <a href="https://github.com/Gringo140" target="_blank" title="Voir mon profil Github"><i
+                class="bi bi-github github"></i></a>
+            <a href="{{ asset('images/CV 2021.pdf') }}" target="_blank" title="Voir mon CV"><i
+                class="bi bi-file-earmark-pdf-fill CV"></i></a>
+            <a href="mailto:landry.galien@gmail.com" target="_blank" title="Contactez moi !"><i
+                class="bi bi-envelope-fill mail"></i></a>
 
-            
+
           </div>
           <img src="{{ asset('images/logo LG.png') }}" class="card-img-top" alt="...">
         </div>
+      </div>
+    </div>
+
+    <div class="d-flex w-75 justify-content-between pdf">
+      <div class="row d-inline-block pdf2">
+        <iframe class="pdf3" src="{{ asset('images/CV 2021.pdf#toolbar=0') }}" type="application/pdf" frameBorder="0" height="100%"
+          width="auto">
+        </iframe>
+        <div class="text-center d-flex justify-content-around pdfA">
+          <a  href="{{ asset('images/CV 2021.pdf') }}" target="_blank">Voir mon CV
+            <i class="bi bi-arrows-angle-expand"></i></a>
+
+          <a download="CV Landry Galien" target="_blank" href="{{ asset('images/CV 2021.pdf') }}">
+            Téléchargez mon CV
+            <i class="bi bi-download"></i>
+          </a>
+        </div>
+      </div>
+      <div class="row d-inline-block pdf2">
+        <iframe class="pdf3" src="{{ asset('images/Lettre recommandation Landry GALIEN.pdf#toolbar=0') }}" type="application/pdf"
+          frameBorder="0" height="100%" width="auto">
+        </iframe>
+        <div class="text-center d-flex justify-content-around pdfA">
+          <a href="{{ asset('images/Lettre recommandation Landry GALIEN.pdf') }}" target="_blank">Lettre de
+            recommandation
+            <i class="bi bi-arrows-angle-expand"></i></a>
+        </div>
+
       </div>
     </div>
   </section>
@@ -520,9 +553,9 @@
                     Bac STI Génie Mécanique
                     <i class="bi bi-patch-check-fill" style="color: #1DA1F2"></i>
                   </h3>
-                  <h6>
+                  <h6 class="mb-2">
                     <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
-                    Jean-Baptiste de la Salle, Lyon 69004
+                    Jean-Baptiste de la Salle, Lyon 69001
                   </h6>
                   <ul class="description">
                     <li>
@@ -554,8 +587,30 @@
   {{-- ///////////////////    REALISATIONS   /////////////////////// --}}
   <section class="realisation-area" id="achievements">
     <span class="h3">
-      <h3><u>{{ __('home.achievements') }}<br> et <br> participations</u></h3>
+      <h3><u>{{ __('home.achievements') }}</u></h3>
     </span>
+
+    <ul class="realDesc p-3">
+      <li>
+        <b>Portfolio :</b> PHP, Laravel, JavaScript,
+      </li>
+      <li>
+        <b>Todo-List :</b> TypeScript, Angular, Ionic, Cordova
+      </li>
+      <li>
+        <b>MoneIoT :</b> PHP, Laravel, JavaScript, jQuery<br>
+        <b>MoneIot App :</b> Typescript, Angular, Ionic, Capacitor, API
+      </li>
+      <li>
+        <b>Gaming-app :</b> PHP, Symfony, SQL, API
+      </li>
+      <li>
+        <b>Magic-Deck :</b> PHP, API
+      </li>
+      <li>
+        <b>quantum-expertise :</b> HTML, CSS, PHP
+      </li>
+    </ul>
 
     <div class="real mb-8">
 
@@ -569,7 +624,8 @@
           <div class="reseaux linksReal">
 
             <a href="http://127.0.0.1:8000/" title="Voir le site" target="_blank"><i class="bi bi-globe"></i></a>
-            <a href="https://github.com/Gringo140/Portfolio" title="Voir le code source" target="_blank"><i class="bi bi-code-slash"></i></a>
+            <a href="https://github.com/Gringo140/Portfolio" title="Voir le code source" target="_blank"><i
+                class="bi bi-code-slash"></i></a>
           </div>
         </div>
       </div>
@@ -581,8 +637,10 @@
             Todo-List
           </h2>
           <div class="reseaux linksReal linksRealMobile">
-            <a href="https://gringo140.github.io/todolist/www/" title="Voir le site" target="_blank"><i class="bi bi-globe"></i></a>
-            <a href="https://github.com/Gringo140/todolist" title="Voir le code source" target="_blank"><i class="bi bi-code-slash"></i></a>
+            <a href="https://gringo140.github.io/todolist/www/" title="Voir le site" target="_blank"><i
+                class="bi bi-globe"></i></a>
+            <a href="https://github.com/Gringo140/todolist" title="Voir le code source" target="_blank"><i
+                class="bi bi-code-slash"></i></a>
           </div>
         </div>
       </div>
@@ -606,7 +664,8 @@
             Gaming-app
           </h2>
           <div class="reseaux linksReal">
-            <a href="https://github.com/Gringo140/gaming-app" title="Voir le code source" target="_blank"><i class="bi bi-code-slash"></i></a>
+            <a href="https://github.com/Gringo140/gaming-app" title="Voir le code source" target="_blank"><i
+                class="bi bi-code-slash"></i></a>
           </div>
         </div>
       </div>
@@ -618,8 +677,10 @@
             Magic-deck
           </h2>
           <div class="reseaux linksReal">
-            <a href="https://magicdeck140.herokuapp.com/cards" title="Voir le site" target="_blank"><i class="bi bi-globe"></i></a>
-            <a href="https://github.com/Gringo140/magic-deck" title="Voir le code source" target="_blank"><i class="bi bi-code-slash"></i></a>
+            <a href="https://magicdeck140.herokuapp.com/cards" title="Voir le site" target="_blank"><i
+                class="bi bi-globe"></i></a>
+            <a href="https://github.com/Gringo140/magic-deck" title="Voir le code source" target="_blank"><i
+                class="bi bi-code-slash"></i></a>
           </div>
         </div>
       </div>
@@ -631,8 +692,10 @@
             Quantum Expertise
           </h2>
           <div class="reseaux linksReal">
-            <a href="https://gringo140.github.io/quantum-expertise/" title="Voir le site" target="_blank"><i class="bi bi-globe"></i></a>
-            <a href="https://github.com/Gringo140" title="Voir le code source" target="_blank"><i class="bi bi-code-slash"></i></a>
+            <a href="https://gringo140.github.io/quantum-expertise/" title="Voir le site" target="_blank"><i
+                class="bi bi-globe"></i></a>
+            <a href="https://github.com/Gringo140/quantum-expertise" title="Voir le code source" target="_blank"><i
+                class="bi bi-code-slash"></i></a>
           </div>
         </div>
       </div>
@@ -649,37 +712,32 @@
     <span class="h3">
       <h3><u>{{ __('home.contact') }}</u></h3>
     </span>
-    
-    <iframe
-    src="{{ asset('images/CV 2021.pdf') }}"
-    type="application/pdf"
-    frameBorder="0"
-    height="100%"
-    width="auto">
-    </iframe>
 
-    <a href="{{ asset('images/CV 2021.pdf') }}" target="_blank">Voir mon CV
-      <i class="bi bi-aspect-ratio"></i></a>
-      <a download="CV Landry Galien" target="_blank" href="{{ asset('images/CV 2021.pdf') }}" title="Télécharger le CV"><i class="bi bi-file-earmark-pdf-fill CV"></i></a>
+    <div class="businessCard">
+      <div>
+        <a href="{{ asset('images/carte de visite LG large.pdf') }}" target="_blank" title="Voir la carte de visite">
+      <img src="{{ asset('images/carte de visite.png') }}" class="mb-4 businessCard businessCard2" alt="..."></a>
+      </div>
+      <div class="text-center m-auto d-flex justify-content-around pdf2 pdfA businessCard3">
+        <a href="mailto:landry.galien@gmail.com" target="_blank" title="Contactez moi !" class="mb-4"> Me contacter <i
+          class="bi bi-envelope-fill mail"></i></a>
+      <a download="Landry Galien - Développeur full stack junior" target="_blank" href="{{ asset('images/carte de visite LG 2.pdf') }}" class="mb-4">
+        Téléchargez ma carte de visite
+        <i class="bi bi-download"></i>
+      </a>
+      </div>
+    </div>
 
-    <a download="CV Landry Galien" target="_blank" href="{{ asset('images/CV 2021.pdf') }}">
-      Téléchargez mon CV
-      <i class="bi bi-download CV"></i>
-    </a>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32873.21565196787!2d4.792050181050427!3d45.72907148078679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4e96994fa8e09%3A0x408ab2ae4bb2050!2s69600%20Oullins!5e0!3m2!1sfr!2sfr!4v1629972956371!5m2!1sfr!2sfr" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-    
   </section>
 
-  
+
   <footer id="target">
     <div class="content1">
-        made with <div class="heart"><i class="bi bi-suit-heart-fill"></i></div> by Landry Galien
-      </div>
-    </footer>
+      made with <div class="heart"><i class="bi bi-suit-heart-fill"></i></div> by Landry Galien
+    </div>
+  </footer>
 
-  
+
 
   <script>
     const navToggler = document.querySelector('.nav-toggler');

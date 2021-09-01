@@ -653,6 +653,53 @@ h3 {
     color: #D54B3E;
 }
 
+.pdf2 {
+    width: 50%;
+}
+
+.pdf {
+    margin-bottom: 10%;
+}
+
+.pdf2 a {
+    color: black;
+    background-color: #d4d7de;
+    border: 1px solid black;
+    border-radius: 27px;
+    padding: 10px;
+    margin: 2% 0 5% 0%;
+    box-shadow: 4px 4px;
+}
+
+.pdf2 a:hover {
+    color: black;
+    background-color: floralwhite;
+    box-shadow: 0px 0px 10px 5px;
+}
+
+@media screen and (max-width: 1150px) {
+    .pdf {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4%;
+    }
+    .pdf2 {
+        width: 100%;
+    }
+    .pdf3 {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .pdf3 {
+        display: none;
+    }
+    .pdfA {
+        flex-direction: column;
+    }
+}
+
 
 /* ///////////////////    COMPETENCES    /////////////////////// */
 
@@ -779,6 +826,12 @@ h3 {
     z-index: -1;
 }
 
+@media screen and (min-width:1200px) {
+    .main-timeline .timeline::before {
+        border-radius: 120px 0 0 120px;
+    }
+}
+
 .main-timeline .timeline::after {
     height: calc(100% - 30px);
     width: calc(50% - 12px);
@@ -855,7 +908,7 @@ h3.title {
     left: auto;
     right: 0;
     border-radius: 0 110px 110px 0;
-    border: 15px solid red;
+    border: 15px solid;
     border-left: none;
 }
 
@@ -863,7 +916,7 @@ h3.title {
     left: auto;
     right: 12px;
     border-radius: 0 100px 100px 0;
-    border: 15px solid green;
+    border: 15px solid;
     border-left: none;
 }
 
@@ -983,11 +1036,15 @@ h3.title {
 
 @media screen and (max-width:1200px) {
     .main-timeline .timeline:after {
-        border-radius: 88px 0 0 88px;
+        border-radius: 100px 0 0 100px;
     }
     .main-timeline .timeline:nth-child(even):after {
-        border-radius: 0 88px 88px 0;
+        border-radius: 0 100px 100px 0;
     }
+}
+
+.xpo {
+    height: 12vh;
 }
 
 @media screen and (max-width: 992px) {
@@ -1070,6 +1127,10 @@ h3.title {
 
 
 /* ///////////////////    REALISATIONS    /////////////////////// */
+
+.realDesc {
+    list-style: none;
+}
 
 @media screen and (max-width:767px) {
     .flip {
@@ -1240,6 +1301,35 @@ h3.title {
 .bi-code-slash:hover,
 .bi-globe:hover {
     color: black;
+}
+
+
+/* ///////////////////    CONTACT    /////////////////////// */
+
+.businessCard {
+    width: 60vw;
+    margin-bottom: 4vh;
+}
+
+.businessCard2 {
+    border: 3px solid floralwhite;
+    padding: 0 !important;
+}
+
+.businessCard3 {
+    flex-direction: column;
+}
+
+@media screen and (min-width:767px) {
+    .businessCard3 {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .businessCard3 {
+        width: 40%;
+    }
 }
 
 
