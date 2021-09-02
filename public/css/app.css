@@ -7,14 +7,8 @@ body {
     background-attachment: fixed;
 }
 
-
-/* ::-webkit-scrollbar {
-    width: 0;
-} */
-
 .aNav,
 .lang {
-    /* margin: 15px; */
     color: #808080;
     text-decoration: none;
     text-transform: uppercase;
@@ -67,7 +61,6 @@ body {
     border: solid;
     border-radius: 8vh;
     padding: 1vw;
-    width: 85%;
     text-shadow: 4px -2px 4px black;
 }
 
@@ -80,6 +73,7 @@ body {
     .h1Status {
         font-size: 8vw !important;
         margin-right: 10%;
+        width: 85%;
     }
     .h3Status {
         font-size: 5vw !important;
@@ -107,17 +101,20 @@ body {
 }
 
 .about-area,
-.realisation-area {
+.contact-area {
     background-image: linear-gradient(to bottom, #d4d7de, #808080);
 }
 
-.skills-area,
-.contact-area {
+.skills-area {
     background-image: linear-gradient(to bottom, #808080, #d4d7de);
 }
 
 .career-area {
     background-image: linear-gradient(to bottom, #d4d7de, #d4d7de);
+}
+
+.realisation-area {
+    background-image: linear-gradient(to bottom, #d4d7de, #808080, #d4d7de);
 }
 
 .txt {
@@ -314,7 +311,7 @@ h3 {
 
 .aBgr .aLang {
     padding: 10px;
-    margin-left: 3vw;
+    /* margin-left: 3vw; */
 }
 
 @media screen and (max-width: 1199px) {
@@ -370,7 +367,7 @@ h3 {
     }
     .site-navbar ul li a {
         padding: 25px;
-        margin-right: 30px;
+        /* margin-right: 30px; */
         color: floralwhite;
     }
     .site-navbar ul li a:hover {
@@ -798,7 +795,6 @@ h3 {
 /* ///////////////////    PARCOURS    /////////////////////// */
 
 .main-timeline {
-    /* font-family: tahoma; */
     padding: 20px 0;
     position: relative;
 }
@@ -1155,9 +1151,6 @@ h3.title {
         margin-right: 3% !important;
         width: 90vw !important;
     }
-    /*     .todoMobile {
-        width: 17vw !important;
-    } */
 }
 
 @media screen and (max-width:467px) {
@@ -1272,7 +1265,6 @@ h3.title {
     background-position: top!important;
     height: 220px;
     padding: 1em 2em;
-    /* background: #808080; */
     background: linear-gradient(90deg, #808080, floralwhite, #d4d7de, #808080, #d4d7de, floralwhite, #808080);
     border-radius: 10px;
 }
@@ -1283,11 +1275,6 @@ h3.title {
     line-height: 160%;
     color: floralwhite;
 }
-
-
-/* .text-shadow {
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
-} */
 
 .linksReal {
     height: 75%;
@@ -1375,9 +1362,9 @@ footer {
     position: relative;
     height: auto;
     width: 100%;
-    background: #808080;
+    background: #d4d7de;
     text-align: center;
-    color: floralwhite;
+    color: #808080;
 }
 
 footer .content1 {
