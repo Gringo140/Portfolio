@@ -84,7 +84,10 @@
 
   {{-- ///////////////////    HOME    /////////////////////// --}}
   <div class="banner-area" id="home">
-    <h1 class="h2Status">{{ __('home.status') }}</h1>
+    <div class="m-auto text-center">
+    <h1 class="h1Status">{{ __('home.status') }}</h1>
+    <h3 class="h3Status">{{ __('home.status2') }} </h3>
+    </div>
   </div>
 
   {{-- ///////////////////    A PROPOS    /////////////////////// --}}
@@ -733,7 +736,8 @@
 
   <footer id="target">
     <div class="content1">
-      made with <div class="heart"><i class="bi bi-suit-heart-fill"></i></div> by Landry Galien
+      made with <div class="heart"><i class="bi bi-suit-heart-fill"></i></div> 
+      © Tous droits réservés, Landry Galien - 2021
     </div>
   </footer>
 

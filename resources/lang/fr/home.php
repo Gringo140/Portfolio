@@ -18,9 +18,10 @@ return [
     'it' => 'IT',
 
     'status' => 'Développeur Full Stack Junior',
+    'status2' => 'En recherche de poste',
 
     'age' => '33 ans',
-    'hometown' => 'Lyon, 69',
+    'hometown' => 'Oullins, 69',
 
     'description' => 'Bonjour, je suis Landry, développeur full stack junior. 
     Après 9 ans passés en tant que superviseur adjoint dans une société de logistique,
