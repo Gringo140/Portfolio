@@ -31,7 +31,7 @@ return [
     /* ///////////////////    A PROPOS    /////////////////////// */
 
     'age' => '33 ans',
-    'hometown' => 'Oullins, 69',
+    'town' => 'Oullins, 69',
     'dispo' => 'Disponibilité : ',
     'now' => 'Immédiate',
 
@@ -42,7 +42,7 @@ return [
     'description2' => 'M\'appuyant sur mes expériences et savoirs acquis lors de mon précédent emploi, 
         c\'est avec aisance et confiance que j\'ai pu exprimer mon potentiel de développeur 
         en travaillant sur le back-end, le front-end, et une application mobile.',
-    'description3' => 'Curieux de tout et avide de connaisances, je m\'interesse également à la cybersécurité et à l\'UI',
+    'description3' => 'Curieux de tout et avide de connaisances, je m\'interesse également à la cybersécurité et à l\'UI.',
 
     'CV' => 'Voir mon CV',
     'CVdl' => 'Téléchargez mon CV',
@@ -122,17 +122,17 @@ return [
     'xpo' => 'XPO Logistics, Genas 69740',
     'xpo_task1' => 'Planifier le traitement des commandes: ',
     'xpo_task1_1' => 'Adapter les demandes spécifiques des clients selon le
-        cahier des charges, Respect des KPI, Respect des directives
-        client, Réaliser un suivi d’activité',
+        cahier des charges; Respect des KPI; Respect des directives
+        client; Réaliser un suivi d’activité',
     'xpo_task2' => 'Management d’équipe: ',
-    'xpo_task2_1' => 'Management de 2 équipes de +10 personnes, Animer et
-        motiver l’équipe, Être à l’écoute, former, accompagner les
-        salariés, Résoudre les problèmes imprévus',
+    'xpo_task2_1' => 'Management de 2 équipes de +10 personnes; Animer et
+        motiver l’équipe; Être à l’écoute; Former, accompagner les
+        salariés; Résoudre les problèmes imprévus',
     'xpo_task3' => 'Planifier l’activité du personnel: ',
-    'xpo_task3_1' => 'Répartir la charge de travail, Gérer les missions en cours et
-        à venir, Établir les bons de commande',
+    'xpo_task3_1' => 'Répartir la charge de travail; Gérer les missions en cours et
+        à venir; Établir les bons de commande',
     'xpo_task4' => 'Coordonner: ',
-    'xpo_task4_1' => 'Adjoint du chef d’équipe, Coordonner les actions du
+    'xpo_task4_1' => 'Adjoint du chef d’équipe; Coordonner les actions du
         responsable d’exploitation avec le groupe',
     'xpo_task5' => 'Polyvalence: ',
     'xpo_task5_1' => 'Connaissance et capacité d\'effectuer n\'importe quelle tâche de

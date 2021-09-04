@@ -110,7 +110,7 @@
         </div>
         <div class="details">
           <span> <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
-            {{ __('home.hometown') }}</span>
+            {{ __('home.town') }}</span>
         </div>
         <div class="details">
           <span>{{ __('home.dispo') }}
