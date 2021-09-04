@@ -135,7 +135,7 @@
             <a href="mailto:landry.galien@gmail.com" target="_blank" title="{{ __('home.contact_me1') }}"><i
                 class="bi bi-envelope-fill mail"></i></a>
           </div>
-          <img src="{{ asset('images/logo LG.png') }}" class="card-img-top" alt="...">
+          <img src="{{ asset('images/logo LG.png') }}" class="card-img-top" alt="logo Landry Galien">
         </div>
       </div>
     </div>
@@ -180,43 +180,43 @@
     <ul class="row cardList">
       <h4 class="h4Card">{{ __('home.techno') }}</h4>
       <li class="card">
-        <img src="{{ asset('images/php.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/php.png') }}" class="card-img-top" alt="logo php">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.php') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/javascript2.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/javascript2.png') }}" class="card-img-top" alt="logo javascript">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.javascript') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/typescript.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/typescript.png') }}" class="card-img-top" alt="logo typescript">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.typescript') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/html.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/html.png') }}" class="card-img-top" alt="logo HTML">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.html') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/css.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/css.png') }}" class="card-img-top" alt="logo CSS">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.css') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/sql.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/sql.png') }}" class="card-img-top" alt="logo SQL">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.sql') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/uml.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/uml.png') }}" class="card-img-top" alt="logo UML">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.uml') }}</h3>
         </div>
@@ -226,55 +226,55 @@
     <ul class="row cardList">
       <h4 class="h4Card">{{ __('home.frameworks') }}</h4>
       <li class="card">
-        <img src="{{ asset('images/laravel.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/laravel.png') }}" class="card-img-top" alt="logo laravel">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.laravel') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/symfony.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/symfony.png') }}" class="card-img-top" alt="logo symfony">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.symfony') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/angular2.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/angular2.png') }}" class="card-img-top" alt="logo angular">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.angular') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/capacitor.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/capacitor.png') }}" class="card-img-top" alt="logo capacitor">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.capacitor') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/cordova.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/cordova.png') }}" class="card-img-top" alt="logo cordova">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.cordova') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/ionic.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/ionic.png') }}" class="card-img-top" alt="logo ionic">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.ionic') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/bootstrap.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/bootstrap.png') }}" class="card-img-top" alt="logo bootstrap">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.bootstrap') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/jquery.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/jquery.png') }}" class="card-img-top" alt="logo jquery">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.jquery') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/scrum.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/scrum.png') }}" class="card-img-top" alt="logo scrum">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.scrum') }}</h3>
         </div>
@@ -284,85 +284,85 @@
     <ul class="row cardList mb-8">
       <h4 class="h4Card">{{ __('home.tools') }}</h4>
       <li class="card">
-        <img src="{{ asset('images/apache.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/apache.png') }}" class="card-img-top" alt="logo apache">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.apache') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/mariadb.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/mariadb.png') }}" class="card-img-top" alt="logo mariadb">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.mariadb') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/android studio.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/android studio.png') }}" class="card-img-top" alt="logo android studio">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.android_studio') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/balsamiq.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/balsamiq.png') }}" class="card-img-top" alt="logo balsamiq">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.balsamiq') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/git.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/git.png') }}" class="card-img-top" alt="logo git">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.git') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/jira.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/jira.png') }}" class="card-img-top" alt="logo jira">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.jira') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/methode-agile.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/methode-agile.png') }}" class="card-img-top" alt="logo méthode agile">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.agile') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/linux.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/linux.png') }}" class="card-img-top" alt="logo linux">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.linux') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/postman.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/postman.png') }}" class="card-img-top" alt="logo postman">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.postman') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/star uml.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/star uml.png') }}" class="card-img-top" alt="logo star uml">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.staruml') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/Sublime-merge.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/Sublime-merge.png') }}" class="card-img-top" alt="logo sublime merge">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.sublime_merge') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/vs code.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/vs code.png') }}" class="card-img-top" alt="logo visual studio code">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.vs_code') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/sigfox.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/sigfox.png') }}" class="card-img-top" alt="logo sigfox">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.sigfox') }}</h3>
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/arduino.png') }}" class="card-img-top" alt="...">
+        <img src="{{ asset('images/arduino.png') }}" class="card-img-top" alt="logo arduino">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.arduino') }}</h3>
         </div>
@@ -545,7 +545,7 @@
                 <span class="timeline-year">{{ __('home.2021') }}</span>
                 <div class="timeline-icon">
                   <a href="https://www.linkedin.com/company/carpe-diem-informatique/" target="_blank">
-                    <img src="{{ asset('images/a world to work.png') }}" class="card-img-top" alt="...">
+                    <img src="{{ asset('images/a world to work.png') }}" class="card-img-top" alt="logo a world to work">
                   </a>
                 </div>
                 <div class="content">
@@ -561,7 +561,7 @@
                     <li>
                       {{ __('home.awtw_task1') }} 
                       <a href="https://moneiot.com" target="_blank">
-                        <img src="{{ asset('images/moneiot.png') }}" class="moneiot" alt="...">
+                        <img src="{{ asset('images/moneiot.png') }}" class="moneiot" alt="logo moneiot">
                       </a> 
                       {{ __('home.awtw_task2') }}
                     </li>
@@ -580,7 +580,7 @@
               <div class="timeline-content">
                 <span class="timeline-year">{{ __('home.2021') }}<br>-<br>{{ __('home.2020') }}</span>
                 <div class="timeline-icon">
-                  <img src="{{ asset('images/M2I.png') }}" class="card-img-top" alt="...">
+                  <img src="{{ asset('images/M2I.png') }}" class="card-img-top" alt="logo m2i formation">
                 </div>
                 <div class="content">
                   <h3 class="title">
@@ -627,7 +627,7 @@
               <div class="timeline-content">
                 <span class="timeline-year">2019 <br>- <br>2010</span>
                 <div class="timeline-icon">
-                  <img src="{{ asset('images/xpo.jpg') }}" class="card-img-top xpo" alt="...">
+                  <img src="{{ asset('images/xpo.jpg') }}" class="card-img-top xpo" alt="logo xpo">
                 </div>
                 <div class="content">
                   <h3 class="title">
@@ -667,7 +667,7 @@
               <div class="timeline-content">
                 <span class="timeline-year">{{ __('home.2010') }} <br>- <br>{{ __('home.2008') }}</span>
                 <div class="timeline-icon">
-                  <img src="{{ asset('images/peyrefitte.png') }}" class="card-img-top peyrefitte" alt="...">
+                  <img src="{{ asset('images/peyrefitte.png') }}" class="card-img-top peyrefitte" alt="logo peyrefitte">
                 </div>
                 <div class="content">
                   <h3 class="title">
@@ -692,7 +692,7 @@
               <div class="timeline-content">
                 <span class="timeline-year">{{ __('home.2007') }}</span>
                 <div class="timeline-icon">
-                  <img src="{{ asset('images/la salle.png') }}" class="card-img-top" alt="...">
+                  <img src="{{ asset('images/la salle.png') }}" class="card-img-top" alt="logo JB la salle">
                 </div>
                 <div class="content">
                   <h3 class="title">
@@ -730,7 +730,7 @@
       <div>
         <a href="{{ asset('images/carte de visite LG large.pdf') }}" target="_blank"
           title="{{ __('home.show_business_card') }}">
-          <img src="{{ asset('images/carte de visite.png') }}" class="mb-4 businessCard businessCard2" alt="...">
+          <img src="{{ asset('images/carte de visite.png') }}" class="mb-4 businessCard businessCard2" alt="carte de visite Landry Galien">
         </a>
       </div>
       <div class="text-center m-auto d-flex justify-content-around pdf2 pdfA businessCard3">
