@@ -33,7 +33,7 @@ return [
     'age' => '33 años',
     'town' => 'Oullins, FR',
     'dispo' => 'Disponibilidad : ',
-    'now' => 'Inmediatamente',
+    'now' => 'inmediata',
 
     'description' => 'Titular del título de Diseñador y Desarrollador de Aplicaciones obtenido tras una formación 
         de un año con el centro M2I Formation, pude poner en marcha los conocimientos adquiridos 
@@ -109,7 +109,7 @@ return [
     'awtw_task9' => 'Método ágil, GitHub, Jira',
 
     '2020' => '2020',
-    'CDA' => 'Diseñador y Desarrollador de Aplicaciones',
+    'CDA' => 'Diseñador Desarrollador de Aplicaciones',
     'm2i' => 'M2I Formation, Lyon 69007 (07/20-07/21)',
     'algorithmie' => 'Algoritmo',
     'big_data' => 'Gestión de Big Data',
@@ -172,7 +172,7 @@ return [
     /* ///////////////////    FOOTER    /////////////////////// */
     
     'made' => 'Made with ',
-    'copyright' => '© Tous droits réservés, Landry Galien - 2021',
+    'copyright' => '© All rights reserved, Landry Galien - 2021',
 
     /* ///////////////////    TITLE    /////////////////////// */
 
