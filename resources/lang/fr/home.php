@@ -26,6 +26,7 @@ return [
     'status2' => 'A l\'écoute d\'opportunités en CDI sur Lyon et alentours :',
     'poste1' => '- Développeur full stack',
     'poste2' => '- Développeur front Angular',
+    'poste3' => '- Développeur applications mobile cross-platform',
 
     /* ///////////////////    A PROPOS    /////////////////////// */
 
@@ -34,17 +35,14 @@ return [
     'dispo' => 'Disponibilité : ',
     'now' => 'Immédiate',
 
-    'description' => 'Bonjour, je suis Landry, développeur full stack junior. 
-    Après 9 ans passés en tant que superviseur adjoint dans une société de logistique,
-    j\'ai décidé d\'entamer une reconversion professionnelle fin 2019. 
-    J\'ai commencé à me former en autodidacte sur OpenClassrooms, effectué un MOOC de l\'ANSSI 
-    sur la cybersécurité et finalement intégré une formation de Concepteur Développeur d\'Applications 
-    en juillet 2020. Cette formation s\'est achevée par un stage de 4 mois qui m\'a permis de développer 
-    et d\'acquérir de nombreuses compétences dans le domaine de la programmation.
-    M\'appuyant sur les nombreuses compétences acquises lors de mon précédent emploi, 
-    c\'est avec aisance et confiance que j\'ai pu exprimer mon potentiel de développeur 
-    en travaillant sur le back-end, le front-end, et une application mobile.
-    ',
+    'description' => 'Titulaire du titre de Concepteur Développeur d\'Applications obtenu à la suite 
+        d\'une formation d\'un an avec le centre M2I Formation, j\'ai pu mettre en place 
+        les connaissances acquises durant de ce cursus lors d\'un stage de 4 mois qui m\'a permis de développer 
+        et d\'acquérir de nombreuses compétences dans le domaine de la programmation.',
+    'description2' => 'M\'appuyant sur mes expériences et savoirs acquis lors de mon précédent emploi, 
+        c\'est avec aisance et confiance que j\'ai pu exprimer mon potentiel de développeur 
+        en travaillant sur le back-end, le front-end, et une application mobile.',
+    'description3' => 'Curieux de tout et avide de connaisances, je m\'interesse également à la cybersécurité et à l\'UI',
 
     'CV' => 'Voir mon CV',
     'CVdl' => 'Téléchargez mon CV',

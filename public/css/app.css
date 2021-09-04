@@ -62,11 +62,13 @@ body {
     border-radius: 8vh;
     padding: 1vw;
     text-shadow: 4px -2px 4px black;
+    width: 85vw;
 }
 
 .h3Status {
     margin-top: 5%;
     text-transform: inherit !important;
+    padding: 3%;
 }
 
 @media screen and (max-width: 467px) {
@@ -888,6 +890,10 @@ h3.title {
     text-shadow: unset;
 }
 
+.content .title a {
+    color: #F83131;
+}
+
 .moneiot {
     height: 2vh;
     margin-bottom: 4px;
@@ -1144,6 +1150,7 @@ h3.title {
 
 .realDesc {
     list-style: none;
+    margin-top: -3%;
 }
 
 @media screen and (max-width:767px) {
