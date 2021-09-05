@@ -87,7 +87,7 @@ body {
 .skills-area,
 .career-area,
 .contact-area,
-.realisation-area {
+.achievements-area {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -95,11 +95,6 @@ body {
     flex-direction: column;
     width: 100%;
     border-bottom: 1px solid floralwhite;
-}
-
-.text-part {
-    width: 65%;
-    height: 80%;
 }
 
 .about-area,
@@ -115,7 +110,7 @@ body {
     background-image: linear-gradient(to bottom, #d4d7de, #d4d7de);
 }
 
-.realisation-area {
+.achievements-area {
     background-image: linear-gradient(to bottom, #d4d7de, #808080, #d4d7de);
 }
 
@@ -531,28 +526,6 @@ h3 {
     transition: width .8s, height .8s, border-radius .7s, -webkit-border-radius .7s;
 }
 
-.postrow .minip .name {
-    width: 200px;
-    margin: 0px auto 15% auto;
-    text-transform: uppercase;
-    word-spacing: 1000px;
-    letter-spacing: 3px;
-    color: #808080;
-}
-
-.postrow .minip .name:first-line {
-    font: 100 20px/30px var(--sans);
-    color: var(--gray);
-}
-
-.postrow .minip .group {
-    font: 300 8px/12px var(--sans);
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: var(--mauve);
-    margin-bottom: 20px;
-}
-
 .postrow .minip .icon {
     font: 15px/15px var(--sans);
     color: var(--mauve50);
@@ -593,14 +566,6 @@ h3 {
     }
 }
 
-.postrow .minip .details bar {
-    flex-grow: 1;
-    height: 1px;
-    background-color: grey;
-    margin: auto 7px;
-    font: 0px/0px var(--sans);
-}
-
 .postrow .post {
     grid-area: post;
     width: 45vw;
@@ -611,28 +576,6 @@ h3 {
     background-color: floralwhite;
     border-radius: 0px 15px 15px 0px;
     -webkit-border-radius: 0px 15px 15px 0px;
-}
-
-.postrow .buttons {
-    grid-area: btns;
-    width: calc(100% - 50px);
-    height: 8px;
-    background-color: floralwhite;
-    border-radius: 0px 0px 15px 0px;
-    -webkit-border-radius: 0px 0px 15px 0px;
-    padding: 50px 50px 50px 0px;
-    font: 8px/8px var(--sans);
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-content: center;
-    align-items: flex-end;
-}
-
-.postrow .buttons a {
-    padding: 0px 5px;
 }
 
 .temp {

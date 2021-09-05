@@ -372,7 +372,7 @@
   </section>
 
   {{-- ///////////////////    REALISATIONS   /////////////////////// --}}
-  <section class="realisation-area" id="achievements">
+  <section class="achievements-area" id="achievements">
     <span class="h3">
       <h3><u>{{ __('home.achievements') }}</u></h3>
     </span>
