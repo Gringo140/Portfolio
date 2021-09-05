@@ -435,7 +435,7 @@
             {{ __('home.portfolio') }}
           </h2>
           <div class="reseaux linksReal">
-            <a href="http://127.0.0.1:8000/" title="{{ __('home.show_website') }}" target="_blank">
+            <a href="http://landry-galien.com" title="{{ __('home.show_website') }}" target="_blank">
               <i class="bi bi-globe"></i>
             </a>
             <a href="https://github.com/Gringo140/Portfolio" title="{{ __('home.show_source_code') }}"
