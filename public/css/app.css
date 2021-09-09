@@ -347,7 +347,7 @@ h3 {
         height: calc(100vh - 10vh);
         left: 0;
         top: 10vh;
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
         border-bottom: 1px solid #444;
         background-color: rgba(0, 0, 0, .75);
@@ -393,6 +393,38 @@ h3 {
 @media screen and (min-width: 468px) {
     .aBgr {
         display: none;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .site-navbar {
+        min-height: 3em;
+    }
+    .site-navbar ul {
+        height: calc(100vh - 3em);
+        top: 3em;
+        flex-direction: unset;
+        overflow: auto;
+    }
+    .h1Status {
+        margin-top: 3em;
+    }
+    .banner-area {
+        height: unset;
+    }
+    footer .content1 {
+        height: 3em !important;
+    }
+    .postrow .minip .details span {
+        font-size: 20px !important;
+    }
+    .aNav2 {
+        margin-top: 20em;
+    }
+    .cover {
+        margin: -40px auto;
+        height: 40px;
+        font-size: 22px;
     }
 }
 

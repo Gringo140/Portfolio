@@ -16,7 +16,7 @@
           <div class="cover"><b>|</b></div>
         </div>
         <ul class="nav">
-          <li><a class="aNav" href="#about">{{ __('home.about') }}</a></li>
+          <li><a class="aNav aNav2" href="#about">{{ __('home.about') }}</a></li>
           <li><a class="aNav" href="#skills">{{ __('home.skills') }}</a></li>
           <li><a class="aNav" href="#achievements">{{ __('home.achievements') }}</a></li>
           <li><a class="aNav" href="#career">{{ __('home.career') }}</a></li>
