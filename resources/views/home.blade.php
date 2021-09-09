@@ -142,7 +142,7 @@
 
     <div class="d-flex w-75 justify-content-between pdf">
       <div class="row d-inline-block pdf2">
-        <iframe class="pdf3" src="{{ asset('images/CV 2021.pdf#toolbar=0') }}" type="application/pdf" frameBorder="0"
+        <iframe class="pdf3" src="{{ asset('images/CV 2021.pdf#toolbar=0') }}" frameBorder="0"
           height="100%" width="auto">
         </iframe>
         <div class="text-center d-flex justify-content-around pdfA">
@@ -158,7 +158,7 @@
       </div>
       <div class="row d-inline-block pdf2">
         <iframe class="pdf3" src="{{ asset('images/Lettre recommandation Landry GALIEN.pdf#toolbar=0') }}"
-          type="application/pdf" frameBorder="0" height="100%" width="auto">
+          frameBorder="0" height="100%" width="auto">
         </iframe>
         <div class="text-center d-flex justify-content-around pdfA">
           <a href="{{ asset('images/Lettre recommandation Landry GALIEN.pdf') }}" target="_blank">
@@ -344,7 +344,7 @@
         </div>
       </li>
       <li class="card">
-        <img src="{{ asset('images/Sublime-merge.png') }}" class="card-img-top" alt="logo sublime merge">
+        <img src="{{ asset('images/Sublime-Merge.png') }}" class="card-img-top" alt="logo sublime merge">
         <div class="card-body">
           <h3 class="h3Tech">{{ __('home.sublime_merge') }}</h3>
         </div>
@@ -728,7 +728,7 @@
 
     <div class="businessCard">
       <div>
-        <a href="{{ asset('images/carte de visite LG large.pdf') }}" target="_blank"
+        <a href="{{ asset('images/carte de visite Landry Galien.pdf') }}" target="_blank"
           title="{{ __('home.show_business_card') }}">
           <img src="{{ asset('images/carte de visite.png') }}" class="mb-4 businessCard businessCard2" alt="carte de visite Landry Galien">
         </a>
@@ -738,7 +738,7 @@
           <i class="bi bi-envelope-fill mail"></i>
         </a>
         <a download="Landry Galien - Développeur full stack junior" target="_blank"
-          href="{{ asset('images/carte de visite LG 2.pdf') }}" class="mb-4">
+          href="{{ asset('images/carte de visite Landry Galien.pdf') }}" class="mb-4">
           {{ __('home.business_card') }}
           <i class="bi bi-download"></i>
         </a>

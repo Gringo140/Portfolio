@@ -37,7 +37,7 @@ return [
 
     'description' => 'Titulaire du titre de Concepteur Développeur d\'Applications obtenu à la suite 
         d\'une formation d\'un an avec le centre M2I Formation, j\'ai pu mettre en place 
-        les connaissances acquises durant de ce cursus lors d\'un stage de 4 mois qui m\'a permis de développer 
+        les connaissances acquises durant ce cursus lors d\'un stage de 4 mois qui m\'a permis de développer 
         et d\'acquérir de nombreuses compétences dans le domaine de la programmation.',
     'description2' => 'M\'appuyant sur mes expériences et savoirs acquis lors de mon précédent emploi, 
         c\'est avec aisance et confiance que j\'ai pu exprimer mon potentiel de développeur 

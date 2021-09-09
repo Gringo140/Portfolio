@@ -58,9 +58,9 @@ body {
     margin: auto;
     color: floralwhite;
     font-size: 5vw;
-    border: solid;
+    border: 5px solid;
     border-radius: 8vh;
-    padding: 1vw;
+    padding: 2%;
     text-shadow: 4px -2px 4px black;
     width: 85vw;
 }
@@ -74,12 +74,12 @@ body {
 @media screen and (max-width: 467px) {
     .h1Status {
         font-size: 8vw !important;
-        margin-right: 10%;
+        /* margin-right: 10%; */
         width: 85%;
     }
     .h3Status {
         font-size: 5vw !important;
-        margin-right: 6%;
+        margin: 6% 6% 0% 6%;
     }
 }
 
@@ -1018,7 +1018,7 @@ h3.title {
 
 @media screen and (max-width:767px) {
     .main-timeline {
-        padding-right: 20px;
+        /* padding-right: 20px; */
     }
     .main-timeline .timeline {
         margin-top: -19px;
@@ -1098,14 +1098,14 @@ h3.title {
 
 @media screen and (max-width:767px) {
     .flip {
-        margin-right: 3% !important;
+        /* margin-right: 3% !important; */
         width: 90vw !important;
     }
 }
 
 @media screen and (max-width:467px) {
     .flip {
-        margin-right: 5% !important;
+        /* margin-right: 5% !important; */
     }
     .todoMobile {
         width: 120px !important;
@@ -1144,27 +1144,27 @@ h3.title {
 }
 
 .portfolio {
-    background-image: url(/images/portfolio.png) !important;
+    background-image: url(/images/portfolio.PNG) !important;
 }
 
 .quantum {
-    background-image: url(/images/quantum.png) !important;
+    background-image: url(/images/quantum.PNG) !important;
 }
 
 .magicDeck {
-    background-image: url(/images/magic-deck.jpg) !important;
+    background-image: url(/images/magic-deck.JPG) !important;
 }
 
 .moneiot2 {
-    background-image: url(/images/moneiot2.png) !important;
+    background-image: url(/images/moneiot2.PNG) !important;
 }
 
 .todolist {
-    background-image: url(/images/todolist2.png) !important;
+    background-image: url(/images/todolist2.PNG) !important;
 }
 
 .gamingApp {
-    background-image: url(/images/gaming-app.png) !important;
+    background-image: url(/images/gaming-app.PNG) !important;
 }
 
 .todoMobile {
@@ -1329,6 +1329,6 @@ footer .content1 {
 @media screen and (max-width:467px) {
     footer .content1 {
         height: 8vh;
-        margin-right: 5% !important;
+        /* margin-right: 5% !important; */
     }
 }
