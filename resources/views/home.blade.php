@@ -545,7 +545,7 @@
                 <span class="timeline-year">{{ __('home.2021') }}</span>
                 <div class="timeline-icon">
                   <a href="https://www.linkedin.com/company/carpe-diem-informatique/" target="_blank">
-                    <img src="{{ asset('images/a world to work.png') }}" class="card-img-top" alt="logo a world to work">
+                    <img src="{{ asset('images/a world to work.png') }}" class="card-img-top awtw" alt="logo a world to work">
                   </a>
                 </div>
                 <div class="content">
@@ -580,7 +580,7 @@
               <div class="timeline-content">
                 <span class="timeline-year">{{ __('home.2021') }}<br>-<br>{{ __('home.2020') }}</span>
                 <div class="timeline-icon">
-                  <img src="{{ asset('images/M2I.png') }}" class="card-img-top" alt="logo m2i formation">
+                  <img src="{{ asset('images/M2I.png') }}" class="card-img-top m2i" alt="logo m2i formation">
                 </div>
                 <div class="content">
                   <h3 class="title">
@@ -692,7 +692,7 @@
               <div class="timeline-content">
                 <span class="timeline-year">{{ __('home.2007') }}</span>
                 <div class="timeline-icon">
-                  <img src="{{ asset('images/la salle.png') }}" class="card-img-top" alt="logo JB la salle">
+                  <img src="{{ asset('images/la salle.png') }}" class="card-img-top la-salle" alt="logo JB la salle">
                 </div>
                 <div class="content">
                   <h3 class="title">

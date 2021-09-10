@@ -1054,6 +1054,16 @@ h3.title {
     }
 }
 
+@media screen and (min-height: 700px) {
+    .awtw,
+    .m2i,
+    .xpo,
+    .peyrefitte,
+    .la-salle {
+        width: 125px !important;
+    }
+}
+
 @media screen and (max-width:767px) {
     .main-timeline {
         /* padding-right: 20px; */
