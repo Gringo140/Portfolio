@@ -31,7 +31,7 @@ return [
     /* ///////////////////    A PROPOS    /////////////////////// */
 
     'age' => '33 años',
-    'town' => 'Oullins, FR',
+    'town' => 'Lyon, FR',
     'dispo' => 'Disponibilidad : ',
     'now' => 'inmediata',
 
