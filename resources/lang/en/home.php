@@ -24,7 +24,7 @@ return [
 
     'status' => 'Junior Full Stack Developer',
     'status2' => 'Listening to opportunities for permanent employment in Lyon and surrounding areas :',
-    'poste1' => '- Full stack developer',
+    'poste1' => '- Full stack developer PHP/ Laravel',
     'poste2' => '- Angular front-end developer',
     'poste3' => '- Cross-platform mobile application developer',
 

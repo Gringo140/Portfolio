@@ -24,7 +24,7 @@ return [
 
     'status' => 'Desarrollador Full Stack Junior',
     'status2' => 'Escucha de las oportunidades de puestos permanentes en Lyon y sus alrededores :',
-    'poste1' => '- Desarrollador full stack',
+    'poste1' => '- Desarrollador full stack PHP/ Laravel',
     'poste2' => '- Desarrollador front Angular',
     'poste3' => '- Desarrollador de aplicaciones móviles multiplataforma',
 

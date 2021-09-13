@@ -24,7 +24,7 @@ return [
 
     'status' => 'Développeur Full Stack Junior',
     'status2' => 'A l\'écoute d\'opportunités en CDI sur Lyon et alentours :',
-    'poste1' => '- Développeur full stack',
+    'poste1' => '- Développeur full stack PHP/ Laravel',
     'poste2' => '- Développeur front Angular',
     'poste3' => '- Développeur applications mobile cross-platform',
 
