@@ -10,8 +10,30 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    
     <title>{{__('home.title')}}</title>
+    
+    <meta name="description" content="Portfolio Landry Galien, Développeur full stack Junior à Lyon" />
+    <link rel="canonical" href="https://landry-galien.com/" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Landry Galien | Développeur full stack junior | PHP Laravel, Angular | Lyon" />
+    <meta property="og:description" content="Portfolio Landry Galien, Développeur full stack Junior à Lyon" />
+    <meta property="og:url" content="https://landry-galien.com/" />
+    <meta property="og:site_name" content="Landry Galien | Développeur full stack junior" />
+
+    <script type="application/ld+json">
+      {
+        "@context" : "http://schema.org",
+        "@type" : "SoftwareApplication",
+        "name" : "Développeur Full Stack Junior",
+        "image" : "https://landry-galien.com/images/profil.jpg",
+        "url" : "https://landry-galien.com/",
+        "author" : {
+          "@type" : "Person",
+          "name" : "Landry Galien"
+        }
+      }
+      </script>
 
   </head>
   <body class="antialiased">
