@@ -33,7 +33,7 @@ return [
     'age' => '33 years',
     'town' => 'Lyon, FR',
     'dispo' => 'Availability : ',
-    'now' => 'Immediate',
+    'now' => 'ASAP',
 
     'description' => 'Holder of the title of Application Developer Designer obtained following 
         a one-year training course with the M2I Formation centre, I was able to put into place 
