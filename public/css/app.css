@@ -1065,9 +1065,9 @@ h3.title {
 }
 
 @media screen and (max-width:767px) {
-    .main-timeline {
-        /* padding-right: 20px; */
-    }
+    /* .main-timeline {
+        padding-right: 20px;
+    } */
     .main-timeline .timeline {
         margin-top: -19px;
     }
@@ -1152,9 +1152,9 @@ h3.title {
 }
 
 @media screen and (max-width:467px) {
-    .flip {
-        /* margin-right: 5% !important; */
-    }
+    /* .flip {
+        margin-right: 5% !important;
+    } */
     .todoMobile {
         width: 120px !important;
     }
