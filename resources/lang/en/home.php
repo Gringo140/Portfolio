@@ -4,7 +4,7 @@ return [
 
     /* ///////////////////    HEADER    /////////////////////// */
 
-    'title' => 'Landry Galien - Portfolio EN',
+    'title' => 'Landry Galien - Full Stack Developer /EN',
     'name' => 'Landry Galien',
 
     'home' => 'home',
