@@ -12,12 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <title>{{__('home.title')}}</title>
     
-    <meta name="description" content="Portfolio Landry Galien, Développeur full stack Junior à Lyon" />
+    <meta name="description" content="Développeur full stack Junior à Lyon, PHP/Laravel, Angular. Réalisations, compétences, parcoursn" />
     <link rel="canonical" href="https://landry-galien.com/" />
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Landry Galien | Développeur full stack junior | PHP Laravel, Angular | Lyon" />
-    <meta property="og:description" content="Portfolio Landry Galien, Développeur full stack Junior à Lyon" />
+    <meta property="og:description" content="Développeur full stack Junior à Lyon, PHP/Laravel, Angular. Réalisations, compétences, parcours" />
     <meta property="og:url" content="https://landry-galien.com/" />
     <meta property="og:site_name" content="Landry Galien | Développeur full stack junior" />
 
