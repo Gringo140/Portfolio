@@ -42,7 +42,7 @@ return [
     'description2' => 'M\'appuyant sur mes expériences et savoirs acquis lors de mon précédent emploi, 
         c\'est avec aisance et confiance que j\'ai pu exprimer mon potentiel de développeur 
         en travaillant sur le back-end, le front-end, et une application mobile.',
-    'description3' => 'Curieux de tout et avide de connaisances, je m\'interesse également à la cybersécurité et à l\'UI.',
+    'description3' => 'Curieux de tout et avide de connaissances, je m\'intéresse également à la cybersécurité et à l\'UI.',
 
     'CV' => 'Voir mon CV',
     'CVdl' => 'Téléchargez mon CV',
