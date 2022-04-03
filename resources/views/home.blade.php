@@ -83,12 +83,12 @@
   <div class="banner-area" id="home">
     <div class="m-auto text-center">
       <h1 class="h1Status">{{ __('home.status') }}</h1>
-      <h3 class="h3Status">
+      {{-- <h3 class="h3Status">
         {{ __('home.status2') }}<br>
         {{ __('home.poste1') }}<br>
         {{ __('home.poste2') }}<br>
         {{ __('home.poste3') }}
-      </h3>
+      </h3> --}}
     </div>
   </div>
 
@@ -112,14 +112,14 @@
           <span> <i class="bi bi-geo-alt-fill" style="color: #E94335"></i>
             {{ __('home.town') }}</span>
         </div>
-        <div class="details">
+        {{-- <div class="details">
           <span>{{ __('home.dispo') }}
             <div class="now details2">
               {{ __('home.now') }} 
               <i class="bi bi-check-circle-fill" style="color: green"></i>
             </div>
           </span>
-        </div>
+        </div> --}}
       </div>
       <div class="post">
         <div class="temp">
@@ -396,9 +396,7 @@
         {{ __('home.php') }},
         {{ __('home.laravel') }},
         {{ __('home.javascript') }},
-        {{ __('home.jquery') }},
-        {{ __('home.laravel') }},
-        {{ __('home.javascript') }}<br>
+        {{ __('home.jquery') }}<br>
 
         <b>{{ __('home.moneiot_app') }} {{ __('home.participation') }} :</b>
         {{ __('home.typescript') }},

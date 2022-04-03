@@ -172,7 +172,7 @@ return [
     /* ///////////////////    FOOTER    /////////////////////// */
     
     'made' => 'Made with ',
-    'copyright' => '© All rights reserved, Landry Galien - 2021',
+    'copyright' => '© All rights reserved, Landry Galien - 2022',
 
     /* ///////////////////    TITLE    /////////////////////// */
 

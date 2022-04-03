@@ -175,7 +175,7 @@ return [
     /* ///////////////////    FOOTER    /////////////////////// */
     
     'made' => 'Made with ',
-    'copyright' => '© Tous droits réservés, Landry Galien - 2021',
+    'copyright' => '© Tous droits réservés, Landry Galien - 2022',
 
     /* ///////////////////    TITLE    /////////////////////// */
 
